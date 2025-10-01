@@ -26,12 +26,34 @@
 #print(type(kas_käib_koolis))
 
 
-from random import randint
-while True:
-    kommid = randint(5, 10)
-    print(f'Laual on {kommid} kommi')
-    poiss = int(input('Mitu kommi sa soovid võtta? '))
-    if poiss > kommid:
-        print('Laual pole nii palju komme')
-    else:
-        print(f'Laual on {kommid - poiss} kommi')
+#from random import randint
+#while True:
+#    kommid = randint(5, 10)
+#    print(f'Laual on {kommid} kommi')
+#    poiss = int(input('Mitu kommi sa soovid võtta? '))
+#    if poiss > kommid:
+#        print('Laual pole nii palju komme')
+#    else:
+#        print(f'Laual on {kommid - poiss} kommi')
+
+
+
+#from math import pi
+
+#ümbermõõdu = float(input('Sisestage ümbermõõdu: '))
+#diameeter = ümbermõõdu / pi
+#print(f'diameetri pikkus on {diameeter.2f}')
+
+
+#a = float(input('Sisestage N: '))
+#b = float(input('Sisestage M: '))
+
+#c = float(a**2+b**2)
+#print(f'käsureal on {c:.2f}')
+
+
+#aeg = float(input("Mitu tundi kulus sõiduks? "))
+#teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+#kiirus = teepikkus / aeg
+
+#print("Sinu kiirus oli " + str(kiirus) + " km/h")
