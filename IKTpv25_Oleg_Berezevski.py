@@ -267,8 +267,10 @@ try:
         leib_summa = 0
     tsekk = [piim_summa, sai_summa, leib_summa]
     kokku = sum(tsekk)
-    print(f'Tšekk:\n Piim maksab {piim} * {piim_kogus}€\n Kokku {piim}€,\n sai maksab {sai} * {sai_kogus}\n Kokku {sai}€,\n leib maksab {leib} * {leib_kogus}\n Kokku {leib}€.\n'
+    print(f'Tšekk:\n Piim  {piim} * {piim_kogus}€\n  {piim}€,\n sai maksab {sai} * {sai_kogus}\n Kokku {sai}€,\n leib maksab {leib} * {leib_kogus}\n Kokku {leib}€.\n'
           f'Kokku tuleb maksta {kokku}€.\n'
           f'Tänan, head aega!')
 except:
     pass
+
+# Очищай мандадихалдур + выходи с акка, другой бы тебе просто хит бы снес!
