@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3c24ba99-398f-4a5b-8334-c0dfd942acde</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IKTpv25_Oleg_Berezevski.py</StartupFile>
+    <StartupFile>Tavaline_fail.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IKTpv25_Oleg_Berezevski.py" />
+    <Compile Include="funktsioonid.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tavaline_fail.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
